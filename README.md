@@ -10,7 +10,11 @@ This program greets the user and asks for their name. After recieving their name
 name = input("Hello. What is your name?") #returns 'Hello, what is your name?''
 print("Hi ", name, ', welcome!') #returns 'Hi, [name you inputted], welcome!'
 ```
-
+```python
+age = int(input("What is your age?")) #returns 'What is your age?''
+dogYears = age * 7 #does the calculation of the age inputed multiplied by 7'
+print("Your age in dog years is:", dogYears, "years") #returns 'Your are in dog years is: [the age calculated] years''
+```
 ## Code of Conduct
 week6-exercise uses the Contributor Covenant. This code of conduct had been adopted by over 200,000 different open source projects. It establishes an open inclusive environment where anyone regardless of their: 
 "age, body size, disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation." 
